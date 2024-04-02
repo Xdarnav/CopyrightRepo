@@ -36,26 +36,26 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("DAXXMUSIC.plugins" + all_module)
-    LOGGER("DAXXMUSIC.plugins").info("𝐍𝐚𝐯𝐞𝐞𝐧 𝐤𝐢 𝐠𝐟 𝐦𝐞𝐫𝐢 𝐇𝐮𝐢 🥳...")
+    LOGGER("DAXXMUSIC.plugins").info("𝐊𝐞𝐞𝐩 𝐒𝐦𝐢𝐥𝐞 𝐀𝐥𝐰𝐚𝐲𝐬 🥳...")
     await userbot.start()
     await DAXX.start()
     try:
-        await DAXX.stream_call("https://graph.org/file/508f32ed5827fd0159266.mp4")
+        await DAXX.stream_call("https://graph.org/file/8919ce630ce5cc4895275.mp4")
     except NoActiveGroupCall:
         LOGGER("DAXXMUSIC").error(
-            "𝗠𝗮𝗱𝗿𝗰𝗵𝗼𝗱 𝗽𝗲𝗵𝗲𝗹𝗲 𝘃𝗰 𝗼𝗻 𝗸𝗮𝗿 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗔𝗦𝗛𝗜𝗙 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
+            "𝗬𝗔𝗥𝗥 𝗽𝗲𝗵𝗲𝗹𝗲 𝘃𝗰 𝗼𝗻 𝗸𝗮𝗿 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗟𝗢𝗟 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
         )
         exit()
     except:
         pass
     await DAXX.decorators()
     LOGGER("DAXXMUSIC").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗔𝗦𝗛𝗜𝗙☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
+        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗔𝗥𝗡𝗔𝗩☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("DAXXMUSIC").info("𝗦𝗧𝗢𝗣 𝗔𝗦𝗛𝗜𝗙 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("DAXXMUSIC").info("𝗦𝗧𝗢𝗣 𝗟𝗢𝗟 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
 
 
 if __name__ == "__main__":
