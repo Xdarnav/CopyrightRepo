@@ -98,11 +98,11 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://radare.arzfun.com/api/tg/photo?id=CAACAgUAAxkBAAIMzmYMEKEcQhXU_5qFHtZze2184NczAAL7BgACv8fZVRKoqq2rpXDZHgQ"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/0ad30bd8346bb58fe6d58.jpg"
+    "PING_IMG_URL", "https://graph.org/file/49084fb7dfbf63e5b822e.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/45fc780754ff497042b2a.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/45fc780754ff497042b2a.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/45fc780754ff497042b2a.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/49084fb7dfbf63e5b822e.jpg"
+STATS_IMG_URL = "https://graph.org/file/49084fb7dfbf63e5b822e.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/49084fb7dfbf63e5b822e.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/45fc780754ff497042b2a.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/45fc780754ff497042b2a.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/45fc780754ff497042b2a.jpg"
