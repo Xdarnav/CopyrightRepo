@@ -14,7 +14,7 @@ from pyrogram.types import InlineKeyboardButton,InlineKeyboardMarkup
 async def upscale_image(client, message):
     try:
         if not message.reply_to_message or not message.reply_to_message.photo:
-            await message.reply_text("**ʀᴀᴍᴅɪ ᴇᴋ ᴘʜᴏᴛᴏ ᴋᴏ ʀᴇᴘʟʏ ᴅᴇᴋᴇ ʟᴇᴋʜ ᴊɪꜱᴋᴏ ꜱᴇxʏ ʙᴀɴᴀ ɴᴀ ᴄʜᴀʜᴀᴛᴀ ʜᴀɪ.**")
+            await message.reply_text("**ʀᴀᴍᴅɪ ᴇᴋ ᴘʜᴏᴛᴏ ᴋᴏ ʀᴇᴘʟʏ ᴅᴇᴋᴇ ʟᴇᴋʜ ᴊɪꜱᴋᴏ ʙᴀɴᴀ ɴᴀ ᴄʜᴀʜᴀᴛᴀ ʜᴀɪ.**")
             return
 
         image = message.reply_to_message.photo.file_id
