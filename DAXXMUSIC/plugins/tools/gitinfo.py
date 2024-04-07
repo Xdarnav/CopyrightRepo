@@ -19,7 +19,7 @@ async def daxxhub(_, message):
 @app.on_message(filters.command(["github", "git"]))
 async def github(_, message):
     if len(message.command) != 2:
-        await message.reply_text("/git ASIFXQUEEN")
+        await message.reply_text("/git CopyrightRepo")
         return
 
     username = message.text.split(None, 1)[1]
@@ -59,7 +59,7 @@ async def github(_, message):
 ๏ ғᴏʟʟᴏᴡᴇʀs ➠ {followers}
 ๏ ғᴏʟʟᴏᴡɪɴɢ ➠ {following}
 
-๏ ᴍᴀᴅᴇ ʙʏ ➠ [ASIF](https://t.me/ASHIF903)"""
+๏ ᴍᴀᴅᴇ ʙʏ ➠ [ARNAV](https://t.me/cute_arnavsingh)"""
 
             except Exception as e:
                 print(str(e))
