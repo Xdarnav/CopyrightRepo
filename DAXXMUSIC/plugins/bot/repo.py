@@ -4,9 +4,9 @@ from DAXXMUSIC import app
 from config import BOT_USERNAME
 
 start_txt = """
-✪ 𝐖εℓ¢σмє 𝐅σя 𝐀ᵴί𝐟 𝐑єρσѕ ✪
+✪ 𝐖εℓ¢σмє 𝐅σя 𝐀𝐫ɴᴀᴠ 𝐑єρσѕ ✪
  
- ➲ ʀᴇᴘᴏ ᴄʜᴀʜɪʏᴇ ᴋʏᴀ ᴍᴇʀᴇ ᴊᴀɴᴀ ᴋᴏ Ðм @ASHIF903 ✰
+ ➲ ʀᴇᴘᴏ ᴄʜᴀʜɪʏᴇ ᴋʏᴀ ᴍᴇʀᴇ @link_copied ✰
  
  ➲ ɴᴏ ʜᴇʀᴏᴋᴜ ʙᴀɴ ɪssᴜᴇ ✰
  
@@ -26,15 +26,15 @@ async def start(_, msg):
           InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/bestodisha"),
-          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/ashif903"),
+          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/enjoy_your_life143"),
+          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/cute_arnavsingh"),
           ],
                [
-                InlineKeyboardButton("𝗤𝗨𝗘𝗘𝗡 𝗦𝗘𝗥𝗩𝗘𝗥", url=f"https://t.me/bot_heart"),
+                InlineKeyboardButton("𝗔𝗕𝗢𝗨𝗧 𝗔𝗥𝗡𝗔𝗩", url=f"https://t.me/aboutarnav"),
 
 ],
 [
-InlineKeyboardButton("𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗚𝗥𝗢𝗨𝗣", url=f"https://t.me/bestodisha"),
+InlineKeyboardButton("𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗚𝗥𝗢𝗨𝗣", url=f"https://t.me/enjoy_your_life143"),
 
         ]]
     
